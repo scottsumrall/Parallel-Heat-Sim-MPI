@@ -1,4 +1,4 @@
-# Project Title
+# Parallelized Heat Transfer Simulation
 
 This program produces a simulation of heat transfer within an arbitrary grid based on a user-specified transfer rate. The transfer is represented graphically using the GFX graphics library. Performance has been optimized to perform at scale with use of the Message Passing Interface (MPI) to distribute the calculation load across several different processors.
 
