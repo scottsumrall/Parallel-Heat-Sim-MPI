@@ -27,11 +27,11 @@ Deploy heat_parallel.c to server and compile
 
 Run using MPI parallelized over 'X' threads
 
-    mpirun -np X heat_parallel
+    mpirun -np X heat_parallel .001
     
 Distributed hosts can be specified by adding a '--hostfile' tag
 
-    mpirun -np X --hostfile <filename> heat_parallel
+    mpirun -np X --hostfile <filename> heat_parallel .001
 
 If on Windows OS, use the following command in Powershell for graphical output
 
