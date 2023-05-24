@@ -21,9 +21,9 @@ Set up MPI on the server:
 A step by step series of examples that tell you how to get a development
 environment running
 
-Deploy heat_parallel.c to server and compile
+Deploy heat_parallel.c to server and compile with GFX
 
-    mpicc heat_parallel.c -o GFX.c heat_parallel
+    mpicc heat_parallel.c -o GFX.c heat_parallel -lX11
 
 Run using MPI parallelized over 'X' threads
 
