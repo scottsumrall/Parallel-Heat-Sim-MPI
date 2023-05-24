@@ -23,7 +23,7 @@ environment running
 
 Deploy heat_parallel.c to server and compile
 
-    mpicc heat_parallel.c -o heat_parallel
+    mpicc heat_parallel.c -o GFX.c heat_parallel
 
 Run using MPI parallelized over 'X' threads
 
